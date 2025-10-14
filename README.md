@@ -1,2 +1,1 @@
-# science-data-engineer-challenge
-Data Engineer Challenge
+# Data Engineer Challenge
