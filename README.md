@@ -40,7 +40,7 @@ The result must be a database with the total carbon values for each county of th
 If you want to go an extra mile and surprise us
 
 - Share an initial exploration of the input datasets with some visualization in a notebook or similar medium.
-- A Map the results.
+- A map with the results.
 - Do you think something is missing/you can add useful features? Go for it!
 
 ### Tools
@@ -50,7 +50,7 @@ Apart from Python, use any tools you are comfortable with.
 
 - Be pragmatic and mindful of the trade-off between feature-completeness and complexity/performance. Completeness is better than show-offs. Keep it simple.
 - About the use of AI assistance, as with any other tool, we do allow you to use it. Nonetheless we expect that the delivered project is owned by you on its totality and that you understand
-and are capable of defending all the aspects of your decisions. We want to know how you approached the problem, not how an LLM does it so keep them contained an under your control.
+and are capable of defending all the aspects of your decisions. We want to know how you approached the problem, not how an LLM does it so keep them contained and under your control.
 
 ## How should I deliver the results?
 As a link to a reproducible and self contained repository on your preferred git platform (GitHub, GitLab, Codeberg...)
