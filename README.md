@@ -1,11 +1,11 @@
-# Data Engineer @ Vizzuality Challenge
+# Coding Challenge - Data Engineer @ Vizzuality
 
 ## What is the purpose of this challenge?
 With this challenge we would like to see a little bit more about how you work and the way you make decisions. Specifically, the challenge will help us see:
 
 * Your current technical knowledge
 * Your thought process
-* The way you work and organize 
+* The way you work and organize
 
 The challenge will also help you get a glimpse of the real type of technical work we develop on a daily basis and the type of datasets we work with.
 
