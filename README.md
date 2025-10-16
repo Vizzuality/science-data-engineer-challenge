@@ -1,4 +1,4 @@
-# Data Engineer Challenge
+# Data Engineer @ Vizzuality Challenge
 
 ## What is the purpose of this challenge?
 With this challenge we would like to see a little bit more how you work and the way you make decisions, specifically, the challenge will help us see:
