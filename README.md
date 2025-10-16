@@ -18,14 +18,13 @@ meant to be an exercise to help us gauge where you are in terms of your current 
 
 ### Overview
 
-The challenge consists in creating a data pipeline that takes a raster dataset, summarizes it by administrative regions and stores the results in a medium that allows queries (a relational database or columnar oriented file). Specifically we want to summarize the total ecosystem carbon stock of the northern lakes region in the USA using the data of the National Forest Carbon Monitoring System.
+The challenge consists in creating a data pipeline that takes a raster dataset, summarizes it by administrative regions and stores the results in a relational database.Specifically, we want to summarize the **total ecosystem carbon** of the northern lakes region in the USA using the data of the National Forest Carbon Monitoring System.
 
-The result must be the total carbon for each county of the states of Michigan, Wisconsin and Minnesota. To achieve it, we want you to create a simple Python pipeline that loads the rasters, computes the zonal stats and loads the values to a storage medium. The destination medium must allow a potential user to formulate queries easily and obtain the total carbon value for a specified county (for example, a posgresql database but feel free to use any data storage).
+The result must be a database with the total carbon values for each county of the states of Michigan, Wisconsin and Minnesota. To achieve it, we want you to create a simple Python pipeline that loads the rasters, computes the zonal stats and loads the values to the db.
 
-### The data:
+### Data
 
-- Use the raster from the National Forest Carbon Monitoring System. Specifically, we will focus on current state of the northern lake states region.
-The data and metadata can be downloaded from: https://usfs-public.box.com/shared/static/v861gwms9fq68sitl0r3vs2v3moxeu9x.zip
+- [Total ecosystem carbon raster from the National Forest Carbon Monitoring System](https://usfs-public.box.com/shared/static/v861gwms9fq68sitl0r3vs2v3moxeu9x.zip).
 
 - Use any administrative boundary source for USA counties you think is appropriate.
 
@@ -34,13 +33,27 @@ The data and metadata can be downloaded from: https://usfs-public.box.com/shared
 - Deliver a simple and reproducible python data pipeline.
 - The pipeline must be easily reproducible end to end. This means that all the setup instructions or programs must be part of the deliverable.
 - The results must be accurate and correct (watch out the units, there are some clues in the metadata documents.)
-- Include instructions on how to query the results. The queries must work.
+- Include instructions on how to query the results and after executing the pipeline we must be able to do such queries.
 
-### The tools
+#### Optional Goals
+
+If you want to go an extra mile and surprise us
+
+- Share an initial exploration of the input datasets with some visualization in a notebook or similar medium.
+- A Map the results.
+- Do you think something is missing/you can add useful features? Go for it!
+
+### Tools
 Apart from Python, use any tools you are comfortable with.
 
+## Things to keep in mind
+
+- Be pragmatic and mindful of the trade-off between feature-completeness and complexity/performance. Completeness is better than show-offs. Keep it simple.
+- About the use of AI assistance, as with any other tool, we do allow you to use it. Nonetheless we expect that the delivered project is owned by you on its totality and that you understand
+and are capable of defending all the aspects of your decisions. We want to know how you approached the problem, not how an LLM does it so keep them contained an under your control.
+
 ## How should I deliver the results?
-As a link to a repository on your preferred git platform (GitHub, GitLab, Codeberg...)
+As a link to a reproducible and self contained repository on your preferred git platform (GitHub, GitLab, Codeberg...)
 
 ## How much time should I spend?
 There is no time limit but we wouldn't want you to spend more than ~6 hours.
