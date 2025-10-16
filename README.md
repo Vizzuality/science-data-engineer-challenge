@@ -46,7 +46,7 @@ If you want to go an extra mile and surprise us
 ### Tools
 Apart from Python, use any tools you are comfortable with.
 
-## Things to keep in mind
+### Things to keep in mind
 
 - Be pragmatic and mindful of the trade-off between feature-completeness and complexity/performance. Completeness is better than show-offs. Keep it simple.
 - About the use of AI assistance, as with any other tool, we do allow you to use it. Nonetheless we expect that the delivered project is owned by you on its totality and that you understand
