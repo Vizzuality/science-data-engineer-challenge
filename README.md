@@ -12,7 +12,7 @@ The challenge will also help you get a glimpse of the real type of technical wor
 Please, feel free to surprise us, and showcase any skills that you think are important!
 
 Keep in mind that there is no right or wrong answer. If you feel like your process isn't perfect, don't worry. This is just
-meant to be an exercise to help us gauge where you are in terms of your current capacity and be a talking point during the interview.
+meant to be an exercise to help us gauge where you are in terms of your current capacity and be a talking point during the next interview.
 
 ## The challenge
 
@@ -28,7 +28,9 @@ The result must be a database with the total carbon values for each county of th
 
 - Use any administrative boundary source for USA counties you think is appropriate.
 
-### Objectives
+### Goals
+
+As a minimum, we expect you to deliver these 4 points:
 
 - Deliver a simple and reproducible python data pipeline.
 - The pipeline must be easily reproducible end to end. This means that all the setup instructions or programs must be part of the deliverable.
@@ -37,7 +39,7 @@ The result must be a database with the total carbon values for each county of th
 
 #### Optional Goals
 
-If you want to go the extra mile and surprise us:
+ If you feel confident, want to go the extra mile, show us more skills, and surprise us, you can add all/some of the points below:
 
 - Share an initial exploration of the input datasets with some visualization in a notebook or similar medium.
 - A map with the results.
@@ -56,7 +58,7 @@ and are capable of defending all the aspects of your decisions. We want to know 
 As a link to a reproducible and self-contained repository on your preferred git platform (GitHub, GitLab, Codeberg...)
 
 ## How much time should I spend?
-There is no time limit but we wouldn't want you to spend more than ~6 hours.
+Based on our experience, we believe you shouldn't spend more than 6 hours. But ultimately, how much time you dedicate to the challenge is up to you. We will also be talking about allocated time during the interview.
 
 ## What if I have questions?
 Email us any questions and we will answer as soon as possible.
